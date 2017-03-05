@@ -11,4 +11,5 @@ function setHiddenFields() {
     while (answer.value.length < 4) {
         answer.value = "0" + answer.value;
     }
+    answer.attempt = "0"
 }
